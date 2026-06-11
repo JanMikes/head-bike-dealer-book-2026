@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Extract bike product photos and category intro photos from katalog.pdf.
 
-- Per bike (from bikes.json): the largest embedded image whose bbox center
-  falls in the bike's column half (page-wide on single-bike pages), skipping
-  decorative images that repeat across 3+ pages (logos, ornaments).
+- Per bike (from bikes.json): all embedded photos whose bbox center falls in
+  the bike's column half (page-wide on single-bike pages), skipping
+  decorative images that repeat across 3+ pages (logos, ornaments) and
+  images bleeding past the page top (section ornaments, full-page lifestyle
+  shots). Largest becomes "image", the rest "thumbnails".
 - Per category: the largest image on the section's INTRODUCTION page.
 - Photos carry an SMask (alpha cut-outs) -> recombined, downscaled to
   max 800px wide, saved as WebP into images/bikes/ and images/categories/.
@@ -18,7 +20,7 @@ from PIL import Image
 
 PDF = 'katalog.pdf'
 MAX_W = 800
-MIN_AREA = 80_000    # pt^2 rendered area to qualify as a product photo
+MIN_AREA = 40_000    # pt^2 rendered area to qualify as a product photo
 CATEGORY_PAGES = {   # category -> INTRODUCTION page (1-based)
     'MTB': 3, 'E-Bike': 26, 'Road': 40, 'Gravel': 40, 'Hybrid': 52, 'Kids': 58,
 }
@@ -52,14 +54,14 @@ def save_webp(xref, path):
     return path
 
 
-def candidates(pno):
+def candidates(pno, clip_top=True):
     out = []
     for info in doc[pno].get_image_info(xrefs=True):
         if info['xref'] in decorative or info['xref'] == 0:
             continue
         x0, y0, x1, y1 = info['bbox']
         area = (x1 - x0) * (y1 - y0)
-        if area >= MIN_AREA:
+        if area >= MIN_AREA and (not clip_top or y0 >= -5):
             out.append({'xref': info['xref'], 'cx': (x0 + x1) / 2, 'y0': y0,
                         'area': area})
     return out
@@ -80,20 +82,26 @@ for page_no, bikes in sorted(bikes_by_page.items()):
             half = cands  # single-bike page with the photo on the other side
         if not half:
             b['image'] = None
+            b['thumbnails'] = []
             missing.append((page_no, b['column'], b['model']))
             continue
-        pick = max(half, key=lambda c: c['area'])
-        if pick['xref'] in xref_cache:
-            b['image'] = xref_cache[pick['xref']]
-        else:
-            path = f"images/bikes/p{page_no:02d}_{b['column']}.webp"
-            b['image'] = save_webp(pick['xref'], path)
-            xref_cache[pick['xref']] = b['image']
+        half.sort(key=lambda c: c['area'], reverse=True)
+        paths = []
+        for n, pick in enumerate(half):
+            if pick['xref'] in xref_cache:
+                paths.append(xref_cache[pick['xref']])
+                continue
+            suffix = '' if n == 0 else f'_{n + 1}'
+            path = f"images/bikes/p{page_no:02d}_{b['column']}{suffix}.webp"
+            paths.append(save_webp(pick['xref'], path))
+            xref_cache[pick['xref']] = paths[-1]
+        b['image'] = paths[0]
+        b['thumbnails'] = paths[1:]
 
 # --- category photos ---
 cat_images = {}
 for cat, page_no in CATEGORY_PAGES.items():
-    cands = candidates(page_no - 1)
+    cands = candidates(page_no - 1, clip_top=False)  # lifestyle photos bleed past page top
     if not cands:
         continue
     pick = max(cands, key=lambda c: c['area'])
@@ -105,6 +113,9 @@ json.dump(data, open('bikes.json', 'w'), ensure_ascii=False, indent=2)
 
 n = sum(1 for b in data['bikes'] if b.get('image'))
 print(f'bike images: {n}/{len(data["bikes"])}')
+for b in data['bikes']:
+    if b.get('thumbnails'):
+        print(f"  extra photos: p{b['page']} {b['column']} {b['model']}: {len(b['thumbnails'])}")
 print(f'category images: {list(cat_images)}')
 if missing:
     print('missing:', missing)

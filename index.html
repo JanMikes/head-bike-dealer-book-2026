@@ -108,17 +108,25 @@ main {
 .bike-head .price small { font-size: 13px; color: var(--muted); font-weight: 500; }
 
 .bike-img {
-  background:
-    radial-gradient(ellipse at 50% 88%, rgba(20,24,28,.10), transparent 60%),
-    var(--paper);
+  position: relative;
+  background: #fff;
   border-bottom: 1px solid var(--rule);
   padding: 10px 14px 4px;
   text-align: center;
 }
-.bike-img img {
+.bike-img img.main {
   max-width: 100%; height: 170px; object-fit: contain;
-  filter: drop-shadow(0 6px 4px rgba(20,24,28,.18));
 }
+.bike-img .alts {
+  position: absolute; top: 6px; right: 6px;
+  display: flex; flex-direction: column; gap: 4px;
+}
+.bike-img .alts img {
+  width: 48px; height: 36px; object-fit: contain;
+  background: #fff; border: 1px solid var(--ink); padding: 2px;
+  cursor: pointer; transition: transform .1s;
+}
+.bike-img .alts img:hover { transform: scale(1.12); border-color: var(--accent-dark); }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; padding: 10px 16px 0; }
 .tag {
   font-size: 10.5px; letter-spacing: .03em;
@@ -216,6 +224,8 @@ fetch('bikes.json')
   });
 
 function init() {
+  state.q = (new URLSearchParams(location.search).get('q') || '').toLowerCase();
+  $('q').value = state.q;
   $('total').textContent = DATA.bikes.length;
   const cats = [...new Set(DATA.bikes.map(b => b.category))];
   $('cats').innerHTML = ['<span class="chip on" data-cat="">All</span>']
@@ -232,6 +242,11 @@ function init() {
   $('subcat').addEventListener('change', e => { state.sub = e.target.value; render(); });
   $('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
   $('warnonly').addEventListener('change', e => { state.warnonly = e.target.checked; render(); });
+  $('grid').addEventListener('click', e => {
+    const thumb = e.target.closest('.alts img'); if (!thumb) return;
+    const main = thumb.closest('.bike-img').querySelector('img.main');
+    [main.src, thumb.src] = [thumb.src, main.src];
+  });
   render();
 }
 
@@ -290,7 +305,11 @@ function card(b) {
       ${b.wheel_size ? `<span class="wheel">${esc(b.wheel_size)}</span>` : ''}
       <span class="price">${b.price_czk != null ? esc(b.price_raw) + ' <small>CZK</small>' : '<small>no price</small>'}</span>
     </div>
-    ${b.image ? `<div class="bike-img"><img src="${esc(b.image)}" alt="${esc(b.model)}" loading="lazy"></div>` : ''}
+    ${b.image ? `<div class="bike-img">
+      <img class="main" src="${esc(b.image)}" alt="${esc(b.model)}" loading="lazy">
+      ${b.thumbnails?.length ? `<div class="alts">${b.thumbnails.map(t =>
+        `<img src="${esc(t)}" alt="${esc(b.model)} variant" loading="lazy">`).join('')}</div>` : ''}
+    </div>` : ''}
     <div class="tags">
       <span class="tag id${b.id ? '' : ' missing'}">${b.id ? 'ID ' + esc(b.id) : 'ID missing'}</span>
       ${b.frame_badge ? `<span class="tag badge">${esc(b.frame_badge)}</span>` : ''}

@@ -125,7 +125,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p05_left.webp"
+      "image": "images/bikes/p05_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26001",
@@ -247,7 +248,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p05_right.webp"
+      "image": "images/bikes/p05_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26002",
@@ -373,7 +375,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p06_left.webp"
+      "image": "images/bikes/p06_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26003",
@@ -499,7 +502,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p06_right.webp"
+      "image": "images/bikes/p06_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26004",
@@ -621,7 +625,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p07_left.webp"
+      "image": "images/bikes/p07_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26005",
@@ -743,7 +748,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p07_right.webp"
+      "image": "images/bikes/p07_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26099",
@@ -865,7 +871,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p10_left.webp"
+      "image": "images/bikes/p10_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26100",
@@ -987,7 +994,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p10_right.webp"
+      "image": "images/bikes/p10_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26101",
@@ -1109,7 +1117,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p11_left.webp"
+      "image": "images/bikes/p11_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26102",
@@ -1231,7 +1240,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p11_right.webp"
+      "image": "images/bikes/p11_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26103",
@@ -1353,7 +1363,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p12_left.webp"
+      "image": "images/bikes/p12_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26104",
@@ -1475,7 +1486,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p12_right.webp"
+      "image": "images/bikes/p12_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26108B",
@@ -1597,7 +1609,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p14_left.webp"
+      "image": "images/bikes/p14_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26108B",
@@ -1719,7 +1732,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p14_right.webp"
+      "image": "images/bikes/p14_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26108",
@@ -1845,7 +1859,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p15_left.webp"
+      "image": "images/bikes/p15_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26109B",
@@ -1971,7 +1986,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p15_right.webp"
+      "image": "images/bikes/p15_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26109B",
@@ -2093,7 +2109,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p16_left.webp"
+      "image": "images/bikes/p16_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26109",
@@ -2215,7 +2232,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p16_right.webp"
+      "image": "images/bikes/p16_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26110B",
@@ -2341,7 +2359,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p17_left.webp"
+      "image": "images/bikes/p17_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26110",
@@ -2467,7 +2486,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p18_left.webp"
+      "image": "images/bikes/p18_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26110",
@@ -2593,7 +2613,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p18_right.webp"
+      "image": "images/bikes/p18_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26200",
@@ -2719,7 +2740,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p20_left.webp"
+      "image": "images/bikes/p20_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26201",
@@ -2845,7 +2867,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p20_right.webp"
+      "image": "images/bikes/p20_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26202",
@@ -2971,7 +2994,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p21_left.webp"
+      "image": "images/bikes/p21_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26202",
@@ -3097,7 +3121,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p21_right.webp"
+      "image": "images/bikes/p21_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26203B",
@@ -3223,7 +3248,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p22_left.webp"
+      "image": "images/bikes/p22_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26203",
@@ -3349,7 +3375,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p22_right.webp"
+      "image": "images/bikes/p22_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26203",
@@ -3475,7 +3502,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p23_left.webp"
+      "image": "images/bikes/p23_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26205B",
@@ -3601,7 +3629,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p23_right.webp"
+      "image": "images/bikes/p23_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26206",
@@ -3727,7 +3756,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p24_left.webp"
+      "image": "images/bikes/p24_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26206",
@@ -3853,7 +3883,11 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p24_right.webp"
+      "image": "images/bikes/p24_right.webp",
+      "thumbnails": [
+        "images/bikes/p24_right_2.webp",
+        "images/bikes/p24_right_3.webp"
+      ]
     },
     {
       "id": "H26207B",
@@ -3979,7 +4013,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p25_left.webp"
+      "image": "images/bikes/p25_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26206",
@@ -4105,7 +4140,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p25_right.webp"
+      "image": "images/bikes/p25_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26300",
@@ -4247,7 +4283,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p28_left.webp"
+      "image": "images/bikes/p28_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26301",
@@ -4389,7 +4426,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p28_right.webp"
+      "image": "images/bikes/p28_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26302",
@@ -4531,7 +4569,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p29_left.webp"
+      "image": "images/bikes/p29_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26310",
@@ -4673,7 +4712,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p29_right.webp"
+      "image": "images/bikes/p29_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26311",
@@ -4815,7 +4855,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p30_left.webp"
+      "image": "images/bikes/p30_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26312",
@@ -4957,7 +4998,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p30_left.webp"
+      "image": "images/bikes/p30_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26319",
@@ -5099,7 +5141,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p31_left.webp"
+      "image": "images/bikes/p31_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26320",
@@ -5241,7 +5284,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p31_right.webp"
+      "image": "images/bikes/p31_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26323",
@@ -5383,7 +5427,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p32_left.webp"
+      "image": "images/bikes/p32_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26324",
@@ -5525,7 +5570,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p32_right.webp"
+      "image": "images/bikes/p32_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26325",
@@ -5663,7 +5709,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p33_left.webp"
+      "image": "images/bikes/p33_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26329",
@@ -5801,7 +5848,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p33_right.webp"
+      "image": "images/bikes/p33_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26330",
@@ -5939,7 +5987,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p34_left.webp"
+      "image": "images/bikes/p34_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26340",
@@ -6097,7 +6146,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p35_left.webp"
+      "image": "images/bikes/p35_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26341",
@@ -6255,7 +6305,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p35_right.webp"
+      "image": "images/bikes/p35_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26342",
@@ -6413,7 +6464,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p36_left.webp"
+      "image": "images/bikes/p36_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26342",
@@ -6571,7 +6623,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p36_right.webp"
+      "image": "images/bikes/p36_right.webp",
+      "thumbnails": []
     },
     {
       "id": null,
@@ -6731,7 +6784,8 @@
       "warnings": [
         "no ID found"
       ],
-      "image": "images/bikes/p37_left.webp"
+      "image": "images/bikes/p37_left.webp",
+      "thumbnails": []
     },
     {
       "id": null,
@@ -6891,7 +6945,8 @@
       "warnings": [
         "no ID found"
       ],
-      "image": "images/bikes/p37_right.webp"
+      "image": "images/bikes/p37_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26350",
@@ -7033,7 +7088,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p38_left.webp"
+      "image": "images/bikes/p38_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26350",
@@ -7175,7 +7231,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p38_right.webp"
+      "image": "images/bikes/p38_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26360",
@@ -7317,7 +7374,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p39_left.webp"
+      "image": "images/bikes/p39_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26360",
@@ -7459,7 +7517,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p39_right.webp"
+      "image": "images/bikes/p39_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26400",
@@ -7581,7 +7640,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p43_left.webp"
+      "image": "images/bikes/p43_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26401",
@@ -7703,7 +7763,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p43_right.webp"
+      "image": "images/bikes/p43_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26402",
@@ -7825,7 +7886,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p44_left.webp"
+      "image": "images/bikes/p44_left.webp",
+      "thumbnails": []
     },
     {
       "id": null,
@@ -7949,7 +8011,8 @@
       "warnings": [
         "no ID found"
       ],
-      "image": "images/bikes/p45_left.webp"
+      "image": "images/bikes/p45_left.webp",
+      "thumbnails": []
     },
     {
       "id": null,
@@ -8073,7 +8136,8 @@
       "warnings": [
         "no ID found"
       ],
-      "image": "images/bikes/p45_right.webp"
+      "image": "images/bikes/p45_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26405",
@@ -8195,7 +8259,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p46_left.webp"
+      "image": "images/bikes/p46_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26406",
@@ -8317,7 +8382,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p47_left.webp"
+      "image": "images/bikes/p47_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26411",
@@ -8439,7 +8505,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p47_right.webp"
+      "image": "images/bikes/p47_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26412",
@@ -8561,7 +8628,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p48_left.webp"
+      "image": "images/bikes/p48_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26404",
@@ -8683,7 +8751,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p48_right.webp"
+      "image": "images/bikes/p48_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26499",
@@ -8805,7 +8874,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p49_left.webp"
+      "image": "images/bikes/p49_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26500",
@@ -8927,7 +8997,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p49_right.webp"
+      "image": "images/bikes/p49_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26501",
@@ -9049,7 +9120,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p50_left.webp"
+      "image": "images/bikes/p50_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26510",
@@ -9171,7 +9243,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p50_right.webp"
+      "image": "images/bikes/p50_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26520",
@@ -9293,7 +9366,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p51_left.webp"
+      "image": "images/bikes/p51_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26530",
@@ -9415,7 +9489,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p51_right.webp"
+      "image": "images/bikes/p51_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26701B",
@@ -9557,7 +9632,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p53_left.webp"
+      "image": "images/bikes/p53_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26702B",
@@ -9699,7 +9775,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p53_right.webp"
+      "image": "images/bikes/p53_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26601",
@@ -9825,7 +9902,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p54_left.webp"
+      "image": "images/bikes/p54_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26602",
@@ -9951,7 +10029,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p54_right.webp"
+      "image": "images/bikes/p54_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26603",
@@ -10077,7 +10156,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p55_left.webp"
+      "image": "images/bikes/p55_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26604",
@@ -10203,7 +10283,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p55_right.webp"
+      "image": "images/bikes/p55_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26751",
@@ -10345,7 +10426,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p57_left.webp"
+      "image": "images/bikes/p57_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26752",
@@ -10487,7 +10569,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p57_left.webp"
+      "image": "images/bikes/p57_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26800B",
@@ -10609,7 +10692,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p61_left.webp"
+      "image": "images/bikes/p61_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26810B",
@@ -10731,7 +10815,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p61_right.webp"
+      "image": "images/bikes/p61_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26820B",
@@ -10853,7 +10938,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p62_left.webp"
+      "image": "images/bikes/p62_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26830B",
@@ -10975,7 +11061,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p62_right.webp"
+      "image": "images/bikes/p62_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26840B",
@@ -11097,7 +11184,11 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p63_left.webp"
+      "image": "images/bikes/p63_left.webp",
+      "thumbnails": [
+        "images/bikes/p63_left_2.webp",
+        "images/bikes/p63_left_3.webp"
+      ]
     },
     {
       "id": "H26900B",
@@ -11219,7 +11310,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p65_left.webp"
+      "image": "images/bikes/p65_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26900",
@@ -11341,7 +11433,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p65_right.webp"
+      "image": "images/bikes/p65_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26902",
@@ -11463,7 +11556,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p66_left.webp"
+      "image": "images/bikes/p66_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26906",
@@ -11585,7 +11679,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p66_right.webp"
+      "image": "images/bikes/p66_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26909",
@@ -11707,7 +11802,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p67_left.webp"
+      "image": "images/bikes/p67_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26911B",
@@ -11829,7 +11925,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p68_left.webp"
+      "image": "images/bikes/p68_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26910",
@@ -11951,7 +12048,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p68_right.webp"
+      "image": "images/bikes/p68_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26911",
@@ -12073,7 +12171,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p69_left.webp"
+      "image": "images/bikes/p69_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26912",
@@ -12195,7 +12294,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p69_right.webp"
+      "image": "images/bikes/p69_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26920B",
@@ -12317,7 +12417,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p70_left.webp"
+      "image": "images/bikes/p70_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26920",
@@ -12439,7 +12540,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p70_right.webp"
+      "image": "images/bikes/p70_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26930",
@@ -12561,7 +12663,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p71_left.webp"
+      "image": "images/bikes/p71_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26929",
@@ -12683,7 +12786,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p71_right.webp"
+      "image": "images/bikes/p71_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26940",
@@ -12805,7 +12909,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p72_left.webp"
+      "image": "images/bikes/p72_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26939",
@@ -12927,7 +13032,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p72_right.webp"
+      "image": "images/bikes/p72_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26950",
@@ -13049,7 +13155,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p73_left.webp"
+      "image": "images/bikes/p73_left.webp",
+      "thumbnails": []
     },
     {
       "id": "H26959",
@@ -13171,7 +13278,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p73_right.webp"
+      "image": "images/bikes/p73_right.webp",
+      "thumbnails": []
     },
     {
       "id": "H26960",
@@ -13293,7 +13401,8 @@
         }
       ],
       "warnings": [],
-      "image": "images/bikes/p74_left.webp"
+      "image": "images/bikes/p74_left.webp",
+      "thumbnails": []
     },
     {
       "id": null,
@@ -13417,7 +13526,10 @@
       "warnings": [
         "no ID found"
       ],
-      "image": "images/bikes/p74_right.webp"
+      "image": "images/bikes/p74_right.webp",
+      "thumbnails": [
+        "images/bikes/p74_right_2.webp"
+      ]
     },
     {
       "id": "H26980",
@@ -13452,7 +13564,10 @@
       "warnings": [
         "no Specifications heading"
       ],
-      "image": "images/bikes/p76_left.webp"
+      "image": "images/bikes/p76_left.webp",
+      "thumbnails": [
+        "images/bikes/p76_left_2.webp"
+      ]
     }
   ],
   "category_images": {
