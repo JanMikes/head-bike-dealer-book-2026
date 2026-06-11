@@ -124,7 +124,8 @@
           "value": "White metallic/Blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p05_left.webp"
     },
     {
       "id": "H26001",
@@ -245,7 +246,8 @@
           "value": "White metallic/Blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p05_right.webp"
     },
     {
       "id": "H26002",
@@ -370,7 +372,8 @@
           "value": "Metallic Grey/Yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p06_left.webp"
     },
     {
       "id": "H26003",
@@ -495,7 +498,8 @@
           "value": "Black metallic/brown"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p06_right.webp"
     },
     {
       "id": "H26004",
@@ -616,7 +620,8 @@
           "value": "Metalic grey/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p07_left.webp"
     },
     {
       "id": "H26005",
@@ -737,7 +742,8 @@
           "value": "Khaki/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p07_right.webp"
     },
     {
       "id": "H26099",
@@ -858,7 +864,8 @@
           "value": "white metallic/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p10_left.webp"
     },
     {
       "id": "H26100",
@@ -979,7 +986,8 @@
           "value": "Metallic grey/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p10_right.webp"
     },
     {
       "id": "H26101",
@@ -1100,7 +1108,8 @@
           "value": "Metalic brown/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p11_left.webp"
     },
     {
       "id": "H26102",
@@ -1221,7 +1230,8 @@
           "value": "metalic grey/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p11_right.webp"
     },
     {
       "id": "H26103",
@@ -1342,7 +1352,8 @@
           "value": "Metalic black/grey"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p12_left.webp"
     },
     {
       "id": "H26104",
@@ -1463,7 +1474,8 @@
           "value": "Metalic grey/green"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p12_right.webp"
     },
     {
       "id": "H26108B",
@@ -1584,7 +1596,8 @@
           "value": "Black/silver"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p14_left.webp"
     },
     {
       "id": "H26108B",
@@ -1705,7 +1718,8 @@
           "value": "Brick red/light blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p14_right.webp"
     },
     {
       "id": "H26108",
@@ -1830,7 +1844,8 @@
           "value": "HBC Pro 350-400/31.6mm"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p15_left.webp"
     },
     {
       "id": "H26109B",
@@ -1955,7 +1970,8 @@
           "value": "HBC Pro 350-400/31.6mm"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p15_right.webp"
     },
     {
       "id": "H26109B",
@@ -2076,7 +2092,8 @@
           "value": "blue/white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p16_left.webp"
     },
     {
       "id": "H26109",
@@ -2197,7 +2214,8 @@
           "value": "dark green/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p16_right.webp"
     },
     {
       "id": "H26110B",
@@ -2322,7 +2340,8 @@
           "value": "FASTEN NW-91K"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p17_left.webp"
     },
     {
       "id": "H26110",
@@ -2447,7 +2466,8 @@
           "value": "Black/Lime"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p18_left.webp"
     },
     {
       "id": "H26110",
@@ -2572,7 +2592,8 @@
           "value": "Black/orange"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p18_right.webp"
     },
     {
       "id": "H26200",
@@ -2697,7 +2718,8 @@
           "value": "metallic mint/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p20_left.webp"
     },
     {
       "id": "H26201",
@@ -2822,7 +2844,8 @@
           "value": "metalic rose gold/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p20_right.webp"
     },
     {
       "id": "H26202",
@@ -2947,7 +2970,8 @@
           "value": "violet/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p21_left.webp"
     },
     {
       "id": "H26202",
@@ -3072,7 +3096,8 @@
           "value": "mint/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p21_right.webp"
     },
     {
       "id": "H26203B",
@@ -3197,7 +3222,8 @@
           "value": "mint/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p22_left.webp"
     },
     {
       "id": "H26203",
@@ -3322,7 +3348,8 @@
           "value": "light violet/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p22_right.webp"
     },
     {
       "id": "H26203",
@@ -3447,7 +3474,8 @@
           "value": "light violet/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p23_left.webp"
     },
     {
       "id": "H26205B",
@@ -3572,7 +3600,8 @@
           "value": "HBC 350-400/31.6mm"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p23_right.webp"
     },
     {
       "id": "H26206",
@@ -3697,7 +3726,8 @@
           "value": "grey matt/mint"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p24_left.webp"
     },
     {
       "id": "H26206",
@@ -3822,7 +3852,8 @@
           "value": "light green/rose"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p24_right.webp"
     },
     {
       "id": "H26207B",
@@ -3947,7 +3978,8 @@
           "value": "salmon/grey"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p25_left.webp"
     },
     {
       "id": "H26206",
@@ -4072,7 +4104,8 @@
           "value": "light purple/ white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p25_right.webp"
     },
     {
       "id": "H26300",
@@ -4213,7 +4246,8 @@
           "value": "metallic red/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p28_left.webp"
     },
     {
       "id": "H26301",
@@ -4354,7 +4388,8 @@
           "value": "graphite/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p28_right.webp"
     },
     {
       "id": "H26302",
@@ -4495,7 +4530,8 @@
           "value": "grey/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p29_left.webp"
     },
     {
       "id": "H26310",
@@ -4636,7 +4672,8 @@
           "value": "metallic grey/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p29_right.webp"
     },
     {
       "id": "H26311",
@@ -4777,7 +4814,8 @@
           "value": "grey/black/orange"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p30_left.webp"
     },
     {
       "id": "H26312",
@@ -4918,7 +4956,8 @@
           "value": "grey/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p30_left.webp"
     },
     {
       "id": "H26319",
@@ -5059,7 +5098,8 @@
           "value": "orange matt/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p31_left.webp"
     },
     {
       "id": "H26320",
@@ -5200,7 +5240,8 @@
           "value": "black/red"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p31_right.webp"
     },
     {
       "id": "H26323",
@@ -5341,7 +5382,8 @@
           "value": "black matt/white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p32_left.webp"
     },
     {
       "id": "H26324",
@@ -5482,7 +5524,8 @@
           "value": "grey metallic/green"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p32_right.webp"
     },
     {
       "id": "H26325",
@@ -5619,7 +5662,8 @@
           "value": "grey/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p33_left.webp"
     },
     {
       "id": "H26329",
@@ -5756,7 +5800,8 @@
           "value": "black matt/green"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p33_right.webp"
     },
     {
       "id": "H26330",
@@ -5893,7 +5938,8 @@
           "value": "black/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p34_left.webp"
     },
     {
       "id": "H26340",
@@ -6050,7 +6096,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p35_left.webp"
     },
     {
       "id": "H26341",
@@ -6207,7 +6254,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p35_right.webp"
     },
     {
       "id": "H26342",
@@ -6364,7 +6412,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p36_left.webp"
     },
     {
       "id": "H26342",
@@ -6521,7 +6570,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p36_right.webp"
     },
     {
       "id": null,
@@ -6680,7 +6730,8 @@
       ],
       "warnings": [
         "no ID found"
-      ]
+      ],
+      "image": "images/bikes/p37_left.webp"
     },
     {
       "id": null,
@@ -6839,7 +6890,8 @@
       ],
       "warnings": [
         "no ID found"
-      ]
+      ],
+      "image": "images/bikes/p37_right.webp"
     },
     {
       "id": "H26350",
@@ -6980,7 +7032,8 @@
           "value": "Grey matt/Orange"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p38_left.webp"
     },
     {
       "id": "H26350",
@@ -7121,7 +7174,8 @@
           "value": "Grey matt/Purple"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p38_right.webp"
     },
     {
       "id": "H26360",
@@ -7262,7 +7316,8 @@
           "value": "black matt/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p39_left.webp"
     },
     {
       "id": "H26360",
@@ -7403,7 +7458,8 @@
           "value": "black matt/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p39_right.webp"
     },
     {
       "id": "H26400",
@@ -7524,7 +7580,8 @@
           "value": "white/metallic blue// white metallic green// black white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p43_left.webp"
     },
     {
       "id": "H26401",
@@ -7645,7 +7702,8 @@
           "value": "white/metallic blue// white metallic green// black white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p43_right.webp"
     },
     {
       "id": "H26402",
@@ -7766,7 +7824,8 @@
           "value": "white/metallic blue//black white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p44_left.webp"
     },
     {
       "id": null,
@@ -7889,7 +7948,8 @@
       ],
       "warnings": [
         "no ID found"
-      ]
+      ],
+      "image": "images/bikes/p45_left.webp"
     },
     {
       "id": null,
@@ -8012,7 +8072,8 @@
       ],
       "warnings": [
         "no ID found"
-      ]
+      ],
+      "image": "images/bikes/p45_right.webp"
     },
     {
       "id": "H26405",
@@ -8133,7 +8194,8 @@
           "value": "Black/prism grey"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p46_left.webp"
     },
     {
       "id": "H26406",
@@ -8254,7 +8316,8 @@
           "value": "Black/red metallic"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p47_left.webp"
     },
     {
       "id": "H26411",
@@ -8375,7 +8438,8 @@
           "value": "grey/orange"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p47_right.webp"
     },
     {
       "id": "H26412",
@@ -8496,7 +8560,8 @@
           "value": "grey matt/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p48_left.webp"
     },
     {
       "id": "H26404",
@@ -8617,7 +8682,8 @@
           "value": "black matt/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p48_right.webp"
     },
     {
       "id": "H26499",
@@ -8738,7 +8804,8 @@
           "value": "light khaki/black // white/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p49_left.webp"
     },
     {
       "id": "H26500",
@@ -8859,7 +8926,8 @@
           "value": "light khaki/black // white/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p49_right.webp"
     },
     {
       "id": "H26501",
@@ -8980,7 +9048,8 @@
           "value": "orange matt/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p50_left.webp"
     },
     {
       "id": "H26510",
@@ -9101,7 +9170,8 @@
           "value": "grey matt/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p50_right.webp"
     },
     {
       "id": "H26520",
@@ -9222,7 +9292,8 @@
           "value": "grey matt/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p51_left.webp"
     },
     {
       "id": "H26530",
@@ -9343,7 +9414,8 @@
           "value": "grey matt/orange"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p51_right.webp"
     },
     {
       "id": "H26701B",
@@ -9484,7 +9556,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p53_left.webp"
     },
     {
       "id": "H26702B",
@@ -9625,7 +9698,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p53_right.webp"
     },
     {
       "id": "H26601",
@@ -9750,7 +9824,8 @@
           "value": "metallic grey/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p54_left.webp"
     },
     {
       "id": "H26602",
@@ -9875,7 +9950,8 @@
           "value": "metallic purple/ mint"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p54_right.webp"
     },
     {
       "id": "H26603",
@@ -10000,7 +10076,8 @@
           "value": "white/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p55_left.webp"
     },
     {
       "id": "H26604",
@@ -10125,7 +10202,8 @@
           "value": "white/brick"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p55_right.webp"
     },
     {
       "id": "H26751",
@@ -10266,7 +10344,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p57_left.webp"
     },
     {
       "id": "H26752",
@@ -10407,7 +10486,8 @@
           "value": "Alloy"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p57_left.webp"
     },
     {
       "id": "H26800B",
@@ -10528,7 +10608,8 @@
           "value": "grey metallic/red"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p61_left.webp"
     },
     {
       "id": "H26810B",
@@ -10649,7 +10730,8 @@
           "value": "White/Turquoise"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p61_right.webp"
     },
     {
       "id": "H26820B",
@@ -10770,7 +10852,8 @@
           "value": "white/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p62_left.webp"
     },
     {
       "id": "H26830B",
@@ -10891,7 +10974,8 @@
           "value": "white metallic/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p62_right.webp"
     },
     {
       "id": "H26840B",
@@ -11012,7 +11096,8 @@
           "value": "white/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p63_left.webp"
     },
     {
       "id": "H26900B",
@@ -11133,7 +11218,8 @@
           "value": "olive green/dark blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p65_left.webp"
     },
     {
       "id": "H26900",
@@ -11254,7 +11340,8 @@
           "value": "orange/black"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p65_right.webp"
     },
     {
       "id": "H26902",
@@ -11375,7 +11462,8 @@
           "value": "blue/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p66_left.webp"
     },
     {
       "id": "H26906",
@@ -11496,7 +11584,8 @@
           "value": "green/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p66_right.webp"
     },
     {
       "id": "H26909",
@@ -11617,7 +11706,8 @@
           "value": "black/green"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p67_left.webp"
     },
     {
       "id": "H26911B",
@@ -11738,7 +11828,8 @@
           "value": "Dark green/yellow"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p68_left.webp"
     },
     {
       "id": "H26910",
@@ -11859,7 +11950,8 @@
           "value": "orange/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p68_right.webp"
     },
     {
       "id": "H26911",
@@ -11980,7 +12072,8 @@
           "value": "green/grey"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p69_left.webp"
     },
     {
       "id": "H26912",
@@ -12101,7 +12194,8 @@
           "value": "beige/red"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p69_right.webp"
     },
     {
       "id": "H26920B",
@@ -12222,7 +12316,8 @@
           "value": "plump/peach"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p70_left.webp"
     },
     {
       "id": "H26920",
@@ -12343,7 +12438,8 @@
           "value": "mint/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p70_right.webp"
     },
     {
       "id": "H26930",
@@ -12464,7 +12560,8 @@
           "value": "rose/white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p71_left.webp"
     },
     {
       "id": "H26929",
@@ -12585,7 +12682,8 @@
           "value": "purple / lime"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p71_right.webp"
     },
     {
       "id": "H26940",
@@ -12706,7 +12804,8 @@
           "value": "blue/white"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p72_left.webp"
     },
     {
       "id": "H26939",
@@ -12827,7 +12926,8 @@
           "value": "black/blue"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p72_right.webp"
     },
     {
       "id": "H26950",
@@ -12948,7 +13048,8 @@
           "value": "mint/grey"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p73_left.webp"
     },
     {
       "id": "H26959",
@@ -13069,7 +13170,8 @@
           "value": "purple"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p73_right.webp"
     },
     {
       "id": "H26960",
@@ -13190,7 +13292,8 @@
           "value": "violet/pink"
         }
       ],
-      "warnings": []
+      "warnings": [],
+      "image": "images/bikes/p74_left.webp"
     },
     {
       "id": null,
@@ -13313,7 +13416,8 @@
       ],
       "warnings": [
         "no ID found"
-      ]
+      ],
+      "image": "images/bikes/p74_right.webp"
     },
     {
       "id": "H26980",
@@ -13347,7 +13451,16 @@
       "specifications": [],
       "warnings": [
         "no Specifications heading"
-      ]
+      ],
+      "image": "images/bikes/p76_left.webp"
     }
-  ]
+  ],
+  "category_images": {
+    "MTB": "images/categories/mtb.webp",
+    "E-Bike": "images/categories/e-bike.webp",
+    "Road": "images/categories/road.webp",
+    "Gravel": "images/categories/gravel.webp",
+    "Hybrid": "images/categories/hybrid.webp",
+    "Kids": "images/categories/kids.webp"
+  }
 }
