@@ -36,10 +36,28 @@
 }
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Preload the LCP image (first card of the default catalogue view) and the
+     above-the-fold fonts so first paint isn't blocked on the network. -->
+<link rel="preload" as="image" href="images/bikes/p05_left.webp" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-700-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-600-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/plexmono-400-latin.woff2" crossorigin>
 <style>
+/* Self-hosted fonts (latin + latin-ext) — no render-blocking third-party CSS.
+   font-display:swap keeps text visible immediately; the browser fetches only
+   the subset a glyph needs (latin-ext loads only for accented characters). */
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/barlow-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/barlow-500-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/barlow-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/barlow-600-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/barlow-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/barlow-700-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/plexmono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/plexmono-400-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/plexmono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/plexmono-500-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/plexmono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/plexmono-600-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 :root {
   --paper: #f4f3ef;
   --ink: #14181c;
@@ -118,6 +136,9 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
   gap: 22px; padding: 28px var(--pad-x) 64px;
 }
+/* Reserve a screenful while the catalogue loads so the footer stays below the
+   fold and doesn't jump up when cards are injected (removed after first render). */
+main.loading { min-height: 100vh; }
 .bike {
   background: var(--card);
   border: 2px solid var(--ink);
@@ -227,7 +248,17 @@ footer {
 
 <div class="controls">
   <input id="q" type="search" placeholder="search model, ID, any spec…" autocomplete="off" aria-label="Search bikes">
-  <div class="chips" id="cats"></div>
+  <!-- Pre-rendered so the chips occupy their space at first paint; init()
+       regenerates identical markup from the data (no layout shift). -->
+  <div class="chips" id="cats">
+    <span class="chip on" data-cat="">All</span>
+    <span class="chip" data-cat="MTB">MTB</span>
+    <span class="chip" data-cat="E-Bike">E-Bike</span>
+    <span class="chip" data-cat="Road">Road</span>
+    <span class="chip" data-cat="Gravel">Gravel</span>
+    <span class="chip" data-cat="Hybrid">Hybrid</span>
+    <span class="chip" data-cat="Kids">Kids</span>
+  </div>
   <select id="subcat" aria-label="Filter by subcategory"><option value="">all subcategories</option></select>
   <select id="sort" aria-label="Sort bikes">
     <option value="page">sort: catalogue order</option>
@@ -237,7 +268,7 @@ footer {
   </select>
 </div>
 
-<main id="grid"></main>
+<main id="grid" class="loading"></main>
 
 <footer id="stats"></footer>
 
@@ -319,6 +350,8 @@ function render() {
   $('grid').innerHTML = list.length
     ? list.map(card).join('')
     : '<div class="empty">no bikes match</div>';
+  // Drop the load-time min-height now that real content defines the page height.
+  $('grid').classList.remove('loading');
 }
 
 function rows(pairs) {
@@ -327,7 +360,12 @@ function rows(pairs) {
   ).join('');
 }
 
-function card(b) {
+function card(b, i) {
+  // First few cards are above the fold: load eagerly (and prioritise the very
+  // first, which is the LCP image) so the page paints fast. The explicit
+  // width/height keep the image box reserved before load (no layout shift).
+  const eager = i < 4;
+  const dim = b.img_w ? ` width="${b.img_w}" height="${b.img_h}"` : '';
   return `<article class="bike">
     <div class="bike-head">
       <h2>${esc(b.model)}</h2>
@@ -335,9 +373,9 @@ function card(b) {
       <span class="price">${b.price_czk != null ? esc(b.price_raw) + ' <small>CZK</small>' : '<small>no price</small>'}</span>
     </div>
     ${b.image ? `<div class="bike-img">
-      <img class="main" src="${esc(b.image)}" alt="HEAD ${esc(b.model)} ${esc(b.category)} bike" loading="lazy">
+      <img class="main" src="${esc(b.image)}" alt="HEAD ${esc(b.model)} ${esc(b.category)} bike"${dim} decoding="async" loading="${eager ? 'eager' : 'lazy'}"${i === 0 ? ' fetchpriority="high"' : ''}>
       ${b.thumbnails?.length ? `<div class="alts">${b.thumbnails.map(t =>
-        `<img src="${esc(t)}" alt="HEAD ${esc(b.model)} variant" loading="lazy">`).join('')}</div>` : ''}
+        `<img src="${esc(t)}" alt="HEAD ${esc(b.model)} variant" width="48" height="36" decoding="async" loading="lazy">`).join('')}</div>` : ''}
     </div>` : ''}
     <div class="tags">
       ${b.id ? `<span class="tag id">ID ${esc(b.id)}</span>` : ''}
