@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://totokolo.cz/schema/bikes.schema.json",
+  "title": "HEAD Bikes catalogue data",
+  "description": "Contract between the PDF-extraction half of the pipeline (parse.py, extract_images.py, optimize_images.py) and the presentation half (build.py). As long as bikes.json validates against this schema, the site builds correctly regardless of how the source PDF was parsed.",
+  "type": "object",
+  "required": ["brand", "currency", "bikes"],
+  "properties": {
+    "source": { "type": "string" },
+    "brand": { "type": "string" },
+    "title": { "type": "string" },
+    "currency": { "type": "string" },
+    "bike_count": { "type": "integer", "minimum": 0 },
+    "category_images": { "type": "object" },
+    "bikes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/bike" }
+    }
+  },
+  "$defs": {
+    "labelValue": {
+      "type": "object",
+      "required": ["label", "value"],
+      "properties": {
+        "label": { "type": "string" },
+        "value": { "type": "string" }
+      }
+    },
+    "bike": {
+      "type": "object",
+      "required": [
+        "model", "category", "page", "column",
+        "price_czk", "price_raw",
+        "short_info", "specifications", "image", "thumbnails"
+      ],
+      "properties": {
+        "id": { "type": ["string", "null"] },
+        "model": { "type": "string", "minLength": 1 },
+        "page": { "type": "integer", "minimum": 0 },
+        "column": { "type": "string", "enum": ["left", "right"] },
+        "category": { "type": "string", "minLength": 1 },
+        "subcategory": { "type": ["string", "null"] },
+        "wheel_size": { "type": ["string", "null"] },
+        "frame_badge": { "type": ["string", "null"] },
+        "price_czk": { "type": ["integer", "null"], "minimum": 0 },
+        "price_raw": { "type": ["string", "null"] },
+        "short_info": { "type": "array", "items": { "$ref": "#/$defs/labelValue" } },
+        "specifications": { "type": "array", "items": { "$ref": "#/$defs/labelValue" } },
+        "warnings": { "type": "array", "items": { "type": "string" } },
+        "image": { "type": ["string", "null"] },
+        "thumbnails": { "type": "array", "items": { "type": "string" } },
+        "img_w": { "type": "integer", "minimum": 1 },
+        "img_h": { "type": "integer", "minimum": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "image": { "type": "string" } }, "required": ["image"] },
+          "then": { "required": ["img_w", "img_h"] }
+        }
+      ]
+    }
+  }
+}
