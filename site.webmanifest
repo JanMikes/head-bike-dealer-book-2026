@@ -1,0 +1,18 @@
+{
+  "name": "HEAD Bikes 2026 — Catalogue",
+  "short_name": "HEAD Bikes",
+  "description": "The complete HEAD 2026 bike range — MTB, road, gravel, hybrid, e-bikes and kids' bikes with full specifications and prices.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "theme_color": "#00b2ca",
+  "background_color": "#f4f3ef",
+  "icons": [
+    { "src": "web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "web-app-manifest-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "web-app-manifest-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
