@@ -122,7 +122,10 @@ header .count b { color: var(--accent-dark); }
   padding: 7px 12px; outline: none; max-width: 100%;
 }
 .controls input[type=search] { flex: 1 1 260px; min-width: 0; }
-.controls select { flex: 0 1 auto; min-width: 0; }
+/* Fixed flex-basis (not `auto`) so the selects keep a stable width when their
+   options change — otherwise the subcategory list resizing on each category
+   switch would make the search field jump. */
+.controls select { flex: 1 1 200px; min-width: 0; }
 .controls input[type=search]:focus, .controls select:focus { border-color: var(--accent-dark); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip {
