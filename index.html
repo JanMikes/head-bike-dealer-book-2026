@@ -149,6 +149,9 @@ main {
   display: flex; flex-direction: column;
   min-width: 0;
 }
+/* `display:flex` above would otherwise override the [hidden] attribute the
+   filter/search toggles, leaving cards visible — keep them hideable. */
+.bike[hidden] { display: none; }
 /* The whole catalogue is prerendered into the DOM (for SEO); skip the
    layout/paint cost of off-screen cards (5th onward — the first row stays
    eager so the LCP image isn't delayed) until they're scrolled near. */
