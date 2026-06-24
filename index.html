@@ -104,15 +104,10 @@ header h1 {
   text-transform: uppercase; letter-spacing: .02em;
 }
 header h1 .slash { color: var(--accent); }
-/* Contact + count travel together on the right and wrap below the title as a
-   unit on narrow screens (staying right-aligned). */
-header .header-meta {
-  margin-left: auto;
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end;
-  gap: 10px 18px;
-}
+/* Contact sits on the left, next to the title; the count is pushed to the far
+   right and wraps below on narrow screens, keeping the left/right split. */
 header .contact {
-  display: flex; flex-direction: column; align-items: flex-end; gap: 1px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
   text-decoration: none; color: var(--ink); white-space: nowrap;
 }
 header .contact-name {
@@ -126,7 +121,7 @@ header .contact-phone {
 header .contact:hover .contact-name { color: var(--accent-dark); }
 header .contact:hover .contact-phone { color: var(--ink); }
 header .count {
-  font-family: var(--disp); font-size: 28px; font-weight: 600;
+  margin-left: auto; font-family: var(--disp); font-size: 28px; font-weight: 600;
   border: 2px solid var(--ink); padding: 2px 14px; background: var(--card);
 }
 header .count b { color: var(--accent-dark); }
@@ -281,13 +276,11 @@ footer {
 
 <header>
   <h1>HEAD<span class="slash">//</span>Bikes 2026</h1>
-  <div class="header-meta">
-    <a class="contact" href="tel:+420607222333">
-      <span class="contact-name">Tomáš Výmola</span>
-      <span class="contact-phone">+420&nbsp;607&nbsp;222&nbsp;333</span>
-    </a>
-    <span class="count"><!--build:count--><b id="shown">105</b> / <span id="total">105</span><!--/build:count--></span>
-  </div>
+  <a class="contact" href="tel:+420607222333">
+    <span class="contact-name">Tomáš Výmola</span>
+    <span class="contact-phone">+420&nbsp;607&nbsp;222&nbsp;333</span>
+  </a>
+  <span class="count"><!--build:count--><b id="shown">105</b> / <span id="total">105</span><!--/build:count--></span>
 </header>
 
 <div class="controls">
