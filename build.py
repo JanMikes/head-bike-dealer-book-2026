@@ -142,7 +142,7 @@ def main() -> None:
     subcats = sorted({b["subcategory"] for b in data["bikes"] if b.get("subcategory")})
     n = len(bikes)
 
-    chips = ('<span class="chip on" data-cat="">All</span>'
+    chips = ('<span class="chip on" data-cat="">Vše</span>'
              + "".join(f'<span class="chip" data-cat="{esc(c)}">{esc(c)}</span>'
                        for c in categories))
     subcat_opts = "".join(f"<option>{esc(s)}</option>" for s in subcats)
