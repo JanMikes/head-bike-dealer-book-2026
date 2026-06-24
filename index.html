@@ -266,6 +266,8 @@ footer {
 
 @media (max-width: 600px) {
   header { position: static; }
+  /* Logo alone on the first line; contact (left) + count (right) on the next. */
+  header h1 { flex-basis: 100%; }
   header .count { font-size: 22px; }
   .bike-head h2 { font-size: 22px; }
   .bike-head .price { font-size: 20px; }
