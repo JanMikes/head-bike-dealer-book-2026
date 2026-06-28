@@ -107,8 +107,12 @@ header h1 .slash { color: var(--accent); }
 /* Contact sits on the left, next to the title; the count is pushed to the far
    right and wraps below on narrow screens, keeping the left/right split. */
 header .contact {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
-  text-decoration: none; color: var(--ink); white-space: nowrap;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
+  white-space: nowrap;
+}
+header .contact-call {
+  display: flex; flex-direction: column; gap: 1px;
+  text-decoration: none; color: var(--ink);
 }
 header .contact-name {
   font-family: var(--disp); font-weight: 600; font-size: 18px;
@@ -118,8 +122,11 @@ header .contact-phone {
   font-family: var(--mono); font-size: 14px; font-weight: 500;
   color: var(--accent-dark);
 }
-header .contact:hover .contact-name { color: var(--accent-dark); }
-header .contact:hover .contact-phone { color: var(--ink); }
+header .contact-call:hover .contact-name { color: var(--accent-dark); }
+header .contact-call:hover .contact-phone { color: var(--ink); }
+header .contact-addr {
+  font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--muted);
+}
 header .count {
   margin-left: auto; font-family: var(--disp); font-size: 28px; font-weight: 600;
   border: 2px solid var(--ink); padding: 2px 14px; background: var(--card);
@@ -278,10 +285,13 @@ footer {
 
 <header>
   <h1>HEAD<span class="slash">//</span>Bikes 2026</h1>
-  <a class="contact" href="tel:+420607222333">
-    <span class="contact-name">Tomáš Výmola</span>
-    <span class="contact-phone">+420&nbsp;607&nbsp;222&nbsp;333</span>
-  </a>
+  <div class="contact">
+    <a class="contact-call" href="tel:+420607222333">
+      <span class="contact-name">Tomáš Výmola</span>
+      <span class="contact-phone">+420&nbsp;607&nbsp;222&nbsp;333</span>
+    </a>
+    <span class="contact-addr">Těšínská 712, Šenov u Ostravy</span>
+  </div>
   <span class="count"><!--build:count--><b id="shown">105</b> / <span id="total">105</span><!--/build:count--></span>
 </header>
 
