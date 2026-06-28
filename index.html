@@ -126,7 +126,9 @@ header .contact-call:hover .contact-name { color: var(--accent-dark); }
 header .contact-call:hover .contact-phone { color: var(--ink); }
 header .contact-addr {
   font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--muted);
+  text-decoration: none;
 }
+header .contact-addr:hover { color: var(--accent-dark); text-decoration: underline; }
 header .count {
   margin-left: auto; font-family: var(--disp); font-size: 28px; font-weight: 600;
   border: 2px solid var(--ink); padding: 2px 14px; background: var(--card);
@@ -290,7 +292,7 @@ footer {
       <span class="contact-name">Tomáš Výmola</span>
       <span class="contact-phone">+420&nbsp;607&nbsp;222&nbsp;333</span>
     </a>
-    <span class="contact-addr">Těšínská 712, Šenov u Ostravy</span>
+    <a class="contact-addr" href="https://www.google.com/maps/search/?api=1&amp;query=T%C4%9B%C5%A1%C3%ADnsk%C3%A1%20712%2C%20%C5%A0enov%20u%20Ostravy" target="_blank" rel="noopener">Těšínská 712, Šenov u Ostravy</a>
   </div>
   <span class="count"><!--build:count--><b id="shown">105</b> / <span id="total">105</span><!--/build:count--></span>
 </header>
